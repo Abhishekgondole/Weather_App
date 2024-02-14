@@ -10,10 +10,32 @@
 <body>
 <div class="mdiv">
 	<div class="container">
-		<h3>WEATHER FORCAST</h3>
+		<h2 style="color: yellow;">WEATHER FORCAST</h2>
 		<form>
-			<input type="text" name="city" id="city_name" placeholder="Enter a City">
-			<button type="button" onclick="fetchCity()"><img src="https://www.svgrepo.com/show/469738/search.svg" alt="search icon"   height="15px" width="20px"> </button>
+			<input type="text" name="city" id="cityname" placeholder="Enter a City" autofocus>
+			<button type="button" onclick="fetchCity()" style="background-color: transparent;"><img src="https://www.svgrepo.com/show/469738/search.svg" alt="search icon"   height="18px" width="22px"> </button>
+			<img src="https://i.gifer.com/3F3I.gif" height="140px" width="100%">
+			<br>
+
+			    <div align="center">			    	
+			   <span id="temp">0°</span><br>
+                <span id="city">CITY NAME</span>
+			    </div>
+			    <div >
+			    	<table >
+			    		<tr>
+			    			<td>
+			    				<h3>HUMIDITY</h3> 
+			    				<span id="humidity">0 g/kg</span>
+			    			</td>
+			    			<td>
+			    				<h3>WIND SPEED</h3>
+			    				  <span id="wind_speed">0 km/hr</span>
+			    			</td>
+			    		</tr>
+
+			    	</table>
+			    </div>
 		</form>
 		
 	</div>

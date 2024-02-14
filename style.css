@@ -1,7 +1,8 @@
 .mdiv{
-	background-image: url(https://wallpapercave.com/wp/STloZos.jpg);
+	background-image: url(https://i.gifer.com/KEyF.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	height: 100vh;
 	width: 100vw;
 	top: 0px;
@@ -12,17 +13,49 @@
 	align-items: center;
 	justify-content: center;
 
+
 }
 .container{
 	background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png);
 	background-repeat: no-repeat;
 
-	background-size: cover;
-	
-	padding: 20px;
-	height: 350px;
-	width: 230px;
+	background-size: cover;	
+	padding: 30px;
+	height: 370px;
+	width: 250px;
 	background-color: white;
 	border-radius: 20px;
-	box-shadow: 0px 0px 20px yellow;
+	box-shadow: 0px 5px 20px skyblue;
+	background: transparent;
+	backdrop-filter:blur(2px);
+}
+input{
+	font-weight: bolder;
+	height: 26px;
+	width: 200px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 2px solid black;
+	color: black;
+	font-size: 20px;
+}
+
+#city{
+	color: orangered;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#temp{
+	
+	color: white;
+	font-size: 40px;
+}
+table{
+
+	 width: 250px;
+	 margin-top: -8px;
+}
+td{
+	color: white;
 }
